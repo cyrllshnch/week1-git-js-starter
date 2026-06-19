@@ -10,7 +10,7 @@
  * @returns {number} Sum of a and b
  */
 function add(a, b) {
-  return a + b;
+  return Number(a) + Number(b);
 }
 
 /**
@@ -20,8 +20,7 @@ function add(a, b) {
  * @returns {number} Difference of a and b
  */
 function subtract(a, b) {
-  // TODO: Implement subtraction
-  // Hint: Return a minus b
+  return a - b;
 }
 
 /**
@@ -31,8 +30,7 @@ function subtract(a, b) {
  * @returns {number} Product of a and b
  */
 function multiply(a, b) {
-  // TODO: Implement multiplication
-  // Hint: Return the product of a and b
+  return a * b;
 }
 
 /**
@@ -42,9 +40,10 @@ function multiply(a, b) {
  * @returns {number} Quotient of a and b
  */
 function divide(a, b) {
-  // TODO: Implement division
-  // Hint: Check if b is zero first to avoid division by zero error
-  // Return an appropriate value or throw an error if b is zero
+  if (b === 0) {
+    throw new Error('Cannot divide by zero');
+  }
+  return a / b;
 }
 
 /**
@@ -54,8 +53,7 @@ function divide(a, b) {
  * @returns {number} Base raised to the power of exponent
  */
 function power(base, exponent) {
-  // TODO: Implement exponentiation
-  // Hint: Use Math.pow() or the ** operator
+  return base ** exponent;
 }
 
 // Export all functions
