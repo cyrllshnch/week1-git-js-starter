@@ -10,8 +10,7 @@
  * @returns {number} Sum of a and b
  */
 function add(a, b) {
-  // TODO: Implement addition
-  // Hint: Return the sum of a and b
+  return a + b;
 }
 
 /**
