@@ -78,6 +78,8 @@ console.log('--- Your Code Here ---');
 // - Test edge cases
 // - Combine multiple functions together
 
+console.log("=== String Utilities ===");
+console.log("Hello World capitalized");
 console.log('\n=== Keep coding! ===');
 console.log("=== Testing Strings ===");
 console.log("Example: transforming text");
