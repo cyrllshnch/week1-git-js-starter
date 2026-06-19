@@ -10,11 +10,7 @@
  * @returns {number} Sum of a and b
  */
 function add(a, b) {
-<<<<<<< HEAD
-  return a + b;
-=======
-  return Number(a) + Number(b);
->>>>>>> feature-math
+   return a + b;
 }
 
 /**
