@@ -79,3 +79,5 @@ console.log('--- Your Code Here ---');
 // - Combine multiple functions together
 
 console.log('\n=== Keep coding! ===');
+console.log("=== Testing Strings ===");
+console.log("Example: transforming text");
